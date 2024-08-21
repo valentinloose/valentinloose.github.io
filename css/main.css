@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    background-image: url(../images/3000X3000\ RAMPAGE\ NO\ INFO.jpg);
+    background-size: 100%;
+    font-family: 'Cabin', sans-serif;
+}
+
+.nav {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    font-weight: bold;
+}
+
+.nav img {
+    width: 200px;
+}
